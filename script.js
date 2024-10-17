@@ -14,3 +14,8 @@ function get_email() {
         email_list.appendChild(item_list);
     })
 }
+
+// gen emails
+for (let i = 0; i < 10; i++) {
+    get_email();
+}
